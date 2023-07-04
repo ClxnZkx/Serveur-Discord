@@ -233,22 +233,3 @@
             <li><i class="fas fa-users-cog"></i> Un staff attentif : Notre équipe de modération et d'administration est toujours présente pour répondre à vos questions, résoudre les problèmes et assurer un environnement convivial et respectueux.</li>
         </ul>
         <a href="https://discord.gg/hHsrwKMACY" class="invite-link" target="_blank" rel="noopener">Rejoignez notre serveur Discord</a>  
-    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
-    <script>
-        const settingsButton = document.querySelector('.settings');
-        const menu = document.querySelector('.menu');
-        const themeItems = document.querySelectorAll('.theme-item');
-
-        settingsButton.addEventListener('click', () => {
-            menu.style.display = menu.style.display === 'none' ? 'block' : 'none';
-        });
-
-        themeItems.forEach((item) => {
-            item.addEventListener('click', () => {
-                const color = item.dataset.color;
-                document.body.style.background = color;
-            });
-        });
-    </script>
-</body>
-</html>
